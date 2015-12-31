@@ -8,8 +8,6 @@
 *@
 *@help
 *
-*
-*
 */
 
 var aliasPluginCommand = Game_Interpreter.prototype.pluginCommand;
@@ -17,12 +15,10 @@ Game_Interpreter.prototype.pluginCommand = function(command, args)
 {
 	aliasPluginCommand.call(this,command,args);
 
-	if(command == "RandomItem")
-{
+	if(command == "Test")
+	{
 	
 
-}
-
-}
+	}
 
 }
